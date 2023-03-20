@@ -49,7 +49,5 @@ def get_records(filePath):
     file.close()
 
 
-filePath = open(r'C:\Users\arkadiuszo\PycharmProjects\python_nauka\kurs_zaawansowany\data.txt')
-
-for record in get_records(filePath):
+for record in get_records(r'C:\Users\arkadiuszo\PycharmProjects\python_nauka\kurs_zaawansowany\data.txt'):
     print('The type is {} and the action is {}'.format(record[0], [record[1]]))

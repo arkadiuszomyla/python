@@ -1,4 +1,5 @@
 # with wywołuje automatycznie close
+# jeżeli klasa ma być wywoływana z contex managera powinna zawierać funkcję enter i exit
 with open(r'C:\Users\arkadiuszo\PycharmProjects\python_nauka\kurs_zaawansowany\data.txt', 'w+') as file:
     file.writelines('SUCCESS')
 
