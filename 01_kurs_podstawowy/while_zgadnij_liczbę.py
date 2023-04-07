@@ -1,4 +1,4 @@
-import random_random
+import random
 my_number = random.randint(0,10)
 start_number = -1
 liczba_zgadniec = 0
