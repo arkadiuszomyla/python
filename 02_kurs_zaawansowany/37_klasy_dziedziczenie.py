@@ -46,7 +46,7 @@ class Truck(Car):
         super().__init__(brand, model, isAirBagOK, isPaintingOk, isMechanicOk, isOnSale)
         self.capacityKg = capacityKg
 
-    #wywolujemy najpierw metodę z klasy rodzicielskiej
+    #wywolujemy najpierw metodę z klasy rodzicielskiej, w praktyce wykona się nadpisana metoda z tej klasy
     def getInfo(self):
         super().getInfo()
         print("CapacityKg - {}".format(self.capacityKg))
