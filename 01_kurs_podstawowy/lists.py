@@ -31,7 +31,7 @@ a = 1
 b = 10
 (a, b) = (b, a) #tupla zamienia wartości
 
-#Distionary
+#Dictionary
 countriesLeaders = {'PL':'Duda', 'US':'Trump'}
 print((countriesLeaders['US']))
 countriesLeaders['DE'] = 'Merkel' #dodaje element
